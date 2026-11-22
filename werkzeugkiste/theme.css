@@ -1,0 +1,5 @@
+/* Farbschema Werkzeugkiste – hier anpassen */
+:root{--bg:#eef1f4;--surface:#fff;--surface2:#e6eaee;--text:#101828;--muted:#667085;--brand:#0f766e;--accent:#0f766e;--accent-text:#fff;--accent-soft:#d5efec;--key:#fff;--key-fn:#e3e8ed;--border:#d5dae0;--danger:#b42318;--good:#14753f;--good-soft:#dcf3e5;--shadow:0 1px 2px rgba(16,24,40,.08);--splash-bg:var(--bg)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1117;--surface:#161b22;--surface2:#212832;--text:#e8edf2;--muted:#8b97a5;--brand:#2dd4bf;--accent:#2dd4bf;--accent-text:#042f2c;--accent-soft:#123a38;--key:#1c232c;--key-fn:#28313c;--border:#2b3440;--danger:#f97066;--good:#5fd391;--good-soft:#123a26;--shadow:none}}
+:root[data-theme="dark"]{--bg:#0d1117;--surface:#161b22;--surface2:#212832;--text:#e8edf2;--muted:#8b97a5;--brand:#2dd4bf;--accent:#2dd4bf;--accent-text:#042f2c;--accent-soft:#123a38;--key:#1c232c;--key-fn:#28313c;--border:#2b3440;--danger:#f97066;--good:#5fd391;--good-soft:#123a26;--shadow:none}
+#splash img{width:132px;height:132px;border-radius:30px;box-shadow:0 10px 36px rgba(15,118,110,.25)}
